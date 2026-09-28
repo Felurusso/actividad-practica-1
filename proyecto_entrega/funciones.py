@@ -50,8 +50,7 @@ def informar_no_especificados (columnas):
     
     print ('el rol ingresado no se encuentra en la lista, mostrando' \
     ' todas las columnas ordenadas por completitud de forma descendente')
-    print (sorted (columnas.items(), key=lambda item: item[1][1], reverse = True))
-    #print (nuevo_diccionario)
+    print (sorted (columnas.items(), key=lambda item: item[1][1], reverse = True)
 
-    #fin de la funcion
+    #fin de la funcion informar_no_especificados
 
